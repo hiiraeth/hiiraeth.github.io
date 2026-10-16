@@ -154,7 +154,7 @@ Referencing outcome 4, I decided to go with an SQLite implementation vs. another
 
 For outcome 5, I implemented several layers of security in my design. One example is the parameterized queries when inputting user data into queries that go to the database. I tested this by attempting to create a pool name with an SQL injection-style name, and it ended up being stored as plain text without ever affecting the database. Following my pattern throughout all the enhancements, I enforced validation at the command line, so that any kind of malformed input does not reach the database. I ensured that when an error occurs, the error message provides useful information to the user but does not expose information about the database like table and/or column names. Lastly, I implemented detection of damaged data so that if two saved allocations overlap, the pool fails to rebuild instead of building it with the bad data.
 
-As for updates, I touched on outcome 2 and outcome 3. For outcome 2, I improved the README to match all the updates I had made to the program and enhanced the help text and error messages for someone who is not used to the tool. For outcome 3, this came through design decisions, such as retiring the NetworkManager class in the main entry file, cidr_slicer.py, and the write order.
+As for updates, I touched on outcome 2 and outcome 3. For outcome 2, I enhanced the help text and error messages for someone who is not used to the tool. For outcome 3, this came through design decisions, such as retiring the NetworkManager class in the main entry file, cidr_slicer.py, and the write order.
 
 ---
 
