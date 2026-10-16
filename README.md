@@ -1,4 +1,4 @@
-# Owen Geltz | CS-499 Capstone ePortfolio
+# Owen Geltz
 
 Hello! My name is Owen. I started my time here at SNHU in July 2024 in their Computer Science program. This GitHub pages site is to showcase my capstone project. I am set to graduate with my Bachelor of Science in November 2026. After this, I plan to target junior network engineering roles. 
 
